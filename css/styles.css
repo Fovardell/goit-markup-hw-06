@@ -752,9 +752,10 @@ strong.footer-paragraph {
 	border: 1px solid transparent;
 	fill: var(--light);
 }
-.policy:focus + .checkbox {
+.policy:focus-visible + .checkbox {
 	outline: solid currentColor;
 }
+
 
 .policy-label .modal-label {
 	margin-bottom: 0;
@@ -785,4 +786,6 @@ strong.footer-paragraph {
 .modal-send-btn:focus {
 	background-color: var(--pressed-state);
 }
+
+
 /* ================================================-_(/backdrop)_-=============================================== */
